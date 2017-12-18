@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61229361F85DD1900F4BFEE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61229351F85DD1900F4BFEE /* CloudKit.framework */; };
+		D65D76ED1F85CEB60008F3E5 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65D76EC1F85CEB60008F3E5 /* FormViewController.m */; };
+		D660E6901F85CA9300E24A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D660E68F1F85CA9300E24A5B /* main.m */; };
+		D660E6931F85CA9300E24A5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D660E6921F85CA9300E24A5B /* AppDelegate.m */; };
+		D660E6961F85CA9300E24A5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D660E6951F85CA9300E24A5B /* ViewController.m */; };
+		D660E6991F85CA9300E24A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D660E6971F85CA9300E24A5B /* Main.storyboard */; };
+		D660E69B1F85CA9300E24A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D660E69A1F85CA9300E24A5B /* Assets.xcassets */; };
+		D660E69E1F85CA9300E24A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D660E69C1F85CA9300E24A5B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D61229351F85DD1900F4BFEE /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		D65D76EB1F85CEB60008F3E5 /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
+		D65D76EC1F85CEB60008F3E5 /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
+		D660E68B1F85CA9300E24A5B /* CustomerServiceCloudStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomerServiceCloudStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D660E68F1F85CA9300E24A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D660E6911F85CA9300E24A5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D660E6921F85CA9300E24A5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D660E6941F85CA9300E24A5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D660E6951F85CA9300E24A5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D660E6981F85CA9300E24A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D660E69A1F85CA9300E24A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D660E69D1F85CA9300E24A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D660E69F1F85CA9400E24A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D660E6A51F85CAF200E24A5B /* CustomerServiceCloudStorage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomerServiceCloudStorage.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D660E6881F85CA9300E24A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61229361F85DD1900F4BFEE /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D660E6821F85CA9300E24A5B = {
+			isa = PBXGroup;
+			children = (
+				D660E68D1F85CA9300E24A5B /* CustomerServiceCloudStorage */,
+				D660E68C1F85CA9300E24A5B /* Products */,
+				D660E6A61F85CB0A00E24A5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D660E68C1F85CA9300E24A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D660E68B1F85CA9300E24A5B /* CustomerServiceCloudStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D660E68D1F85CA9300E24A5B /* CustomerServiceCloudStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D660E6A51F85CAF200E24A5B /* CustomerServiceCloudStorage.entitlements */,
+				D660E6911F85CA9300E24A5B /* AppDelegate.h */,
+				D660E6921F85CA9300E24A5B /* AppDelegate.m */,
+				D660E6941F85CA9300E24A5B /* ViewController.h */,
+				D660E6951F85CA9300E24A5B /* ViewController.m */,
+				D65D76EB1F85CEB60008F3E5 /* FormViewController.h */,
+				D65D76EC1F85CEB60008F3E5 /* FormViewController.m */,
+				D660E6971F85CA9300E24A5B /* Main.storyboard */,
+				D660E69A1F85CA9300E24A5B /* Assets.xcassets */,
+				D660E69C1F85CA9300E24A5B /* LaunchScreen.storyboard */,
+				D660E69F1F85CA9400E24A5B /* Info.plist */,
+				D660E68E1F85CA9300E24A5B /* Supporting Files */,
+			);
+			path = CustomerServiceCloudStorage;
+			sourceTree = "<group>";
+		};
+		D660E68E1F85CA9300E24A5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D660E68F1F85CA9300E24A5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D660E6A61F85CB0A00E24A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D61229351F85DD1900F4BFEE /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D660E68A1F85CA9300E24A5B /* CustomerServiceCloudStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D660E6A21F85CA9400E24A5B /* Build configuration list for PBXNativeTarget "CustomerServiceCloudStorage" */;
+			buildPhases = (
+				D660E6871F85CA9300E24A5B /* Sources */,
+				D660E6881F85CA9300E24A5B /* Frameworks */,
+				D660E6891F85CA9300E24A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomerServiceCloudStorage;
+			productName = CustomerServiceCloudStorage;
+			productReference = D660E68B1F85CA9300E24A5B /* CustomerServiceCloudStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D660E6831F85CA9300E24A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Naresh Kongara";
+				TargetAttributes = {
+					D660E68A1F85CA9300E24A5B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5PKYKCYDR5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D660E6861F85CA9300E24A5B /* Build configuration list for PBXProject "CustomerServiceCloudStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D660E6821F85CA9300E24A5B;
+			productRefGroup = D660E68C1F85CA9300E24A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D660E68A1F85CA9300E24A5B /* CustomerServiceCloudStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D660E6891F85CA9300E24A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D660E69E1F85CA9300E24A5B /* LaunchScreen.storyboard in Resources */,
+				D660E69B1F85CA9300E24A5B /* Assets.xcassets in Resources */,
+				D660E6991F85CA9300E24A5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D660E6871F85CA9300E24A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D660E6961F85CA9300E24A5B /* ViewController.m in Sources */,
+				D660E6931F85CA9300E24A5B /* AppDelegate.m in Sources */,
+				D65D76ED1F85CEB60008F3E5 /* FormViewController.m in Sources */,
+				D660E6901F85CA9300E24A5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D660E6971F85CA9300E24A5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D660E6981F85CA9300E24A5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D660E69C1F85CA9300E24A5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D660E69D1F85CA9300E24A5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D660E6A01F85CA9400E24A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D660E6A11F85CA9400E24A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D660E6A31F85CA9400E24A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CustomerServiceCloudStorage/CustomerServiceCloudStorage.entitlements;
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = CustomerServiceCloudStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CMPE297iCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D660E6A41F85CA9400E24A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CustomerServiceCloudStorage/CustomerServiceCloudStorage.entitlements;
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = CustomerServiceCloudStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CMPE297iCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D660E6861F85CA9300E24A5B /* Build configuration list for PBXProject "CustomerServiceCloudStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D660E6A01F85CA9400E24A5B /* Debug */,
+				D660E6A11F85CA9400E24A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D660E6A21F85CA9400E24A5B /* Build configuration list for PBXNativeTarget "CustomerServiceCloudStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D660E6A31F85CA9400E24A5B /* Debug */,
+				D660E6A41F85CA9400E24A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D660E6831F85CA9300E24A5B /* Project object */;
+}
